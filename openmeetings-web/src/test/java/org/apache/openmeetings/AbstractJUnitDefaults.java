@@ -47,7 +47,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 public abstract class AbstractJUnitDefaults extends AbstractSpringTest {
 	private static final Logger log = LoggerFactory.getLogger(AbstractJUnitDefaults.class);
-	private static final String timeZone = "Europe/Berlin";
+	public static final String timeZone = "Europe/Berlin";
 	public static final int ONE_HOUR = 60 * 60 * 1000;
 	public static final String adminUsername = "admin";
 	public static final String regularUsername = "user";

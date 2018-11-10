@@ -84,6 +84,7 @@ public class AppointmentManager {
 	static {
 		// Disable TimeZone caching through JCache
 		System.setProperty("net.fortuna.ical4j.timezone.cache.impl", MapTimeZoneCache.class.getName());
+		System.setProperty("net.fortuna.ical4j.timezone.update.enabled", "false");
 	}
 
 	@Autowired
